@@ -12,6 +12,7 @@
 		FA6FA3701CE064FA003AD906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6FA36E1CE064FA003AD906 /* Main.storyboard */; };
 		FA6FA3721CE064FA003AD906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6FA3711CE064FA003AD906 /* Assets.xcassets */; };
 		FA6FA3751CE064FA003AD906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6FA3731CE064FA003AD906 /* LaunchScreen.storyboard */; };
+		FA6FA37E1CE06529003AD906 /* LTWaveEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6FA37D1CE06529003AD906 /* LTWaveEmitterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FA6FA3711CE064FA003AD906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA6FA3741CE064FA003AD906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA6FA3761CE064FA003AD906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6FA37D1CE06529003AD906 /* LTWaveEmitterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTWaveEmitterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FA6FA3691CE064F9003AD906 /* LTWaveEmitterView */ = {
 			isa = PBXGroup;
 			children = (
+				FA6FA37C1CE06501003AD906 /* Sources */,
 				FA6FA36A1CE064F9003AD906 /* AppDelegate.swift */,
 				FA6FA36C1CE064FA003AD906 /* ViewController.swift */,
 				FA6FA36E1CE064FA003AD906 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				FA6FA3761CE064FA003AD906 /* Info.plist */,
 			);
 			path = LTWaveEmitterView;
+			sourceTree = "<group>";
+		};
+		FA6FA37C1CE06501003AD906 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FA6FA37D1CE06529003AD906 /* LTWaveEmitterView.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA6FA36D1CE064FA003AD906 /* ViewController.swift in Sources */,
+				FA6FA37E1CE06529003AD906 /* LTWaveEmitterView.swift in Sources */,
 				FA6FA36B1CE064F9003AD906 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
