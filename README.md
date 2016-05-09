@@ -1,7 +1,6 @@
 ![LTWaveEmitterView](https://cocoapod-badges.herokuapp.com/v/LTWaveEmitterView/badge.png)
 
 ## Demo
-##### 1. You can apply animation to each view during the scroll:
 ![LTWaveEmitterView](https://raw.githubusercontent.com/ltebean/LTWaveEmitterView/master/demo.gif)
 
 
